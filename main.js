@@ -66,6 +66,7 @@ function checkStatus() {
         gameText.style.display = "block";
         isPlaying = false;
         clearInterval(timeInterval);
+        changeButton('Retry');
     }
 }
 
